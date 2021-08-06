@@ -1,0 +1,26 @@
+@import 'base';
+
+.container{
+  @extend %size
+}
+
+.navigation-panel{
+  height: 40px;
+  width: 1280px;
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    li{
+      a, a:hover, a:active, a:visited{
+          text-decoration: none;
+          color:black;
+        }
+      
+    } 
+  }
+  
+
+}
