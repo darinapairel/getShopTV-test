@@ -11,7 +11,7 @@
     .banner-page--banner{
         width: 251px;
         height: 357px;
-        background-color: #86D3F4;
+        background-color: $blue;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -21,7 +21,7 @@
         position: absolute;
         left: 1009px;
         top: 260px;
-        
+
         button{
             background: #000;
             width: 156px;

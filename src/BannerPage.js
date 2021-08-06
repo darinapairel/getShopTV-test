@@ -1,4 +1,3 @@
-import React from 'react'
 import './scss/BannerPageStyles.scss'
 import video from './plushkami.mp4'
 import qr from './qr.png'
