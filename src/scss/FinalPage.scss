@@ -1,7 +1,7 @@
 @import 'base';
 
 .final-page--container{
-    background-image: url(../background.png);
+    @extend %background-img;
     @extend %size;
 
     .button-close{

@@ -1,0 +1,44 @@
+.numpad-layout{
+    width: 284px;
+    height: 278px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .numpad-layout-key{
+        width: 88px;
+        height: 52px;
+        border: 2px solid black;
+        text-align: center;
+        text-decoration: none;
+        background: none;
+        justify-content: space-between;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        &:nth-child(3n+1){
+            margin-left: 0;
+        }
+
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+
+        &[value="стереть"]{
+            flex-grow: 2;
+            margin-right: 0;
+            text-transform:uppercase;
+            margin-right: 10px;
+        }
+
+        &:hover,&:active, &:focus{
+            background-color: black;
+            color: white;
+        }
+
+    }
+}

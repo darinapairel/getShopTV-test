@@ -1,6 +1,7 @@
 import {Route, HashRouter, Link, Switch} from 'react-router-dom'
 import BannerPage from './BannerPage'
 import FinalPage from './FinalPage'
+import PhonePage from './PhonePage'
 import Home from './Home'
 import './scss/App.scss'
 
@@ -24,7 +25,7 @@ function App(){
             <BannerPage />
           </Route>
           <Route path="/number">
-            // Number screen component
+            <PhonePage />
           </Route>
           <Route path="/finalpage">
             <FinalPage />

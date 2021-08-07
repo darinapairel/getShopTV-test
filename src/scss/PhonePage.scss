@@ -1,0 +1,92 @@
+@import 'base';
+
+.phone-page--container{
+    @extend %size;
+    @extend %background-img;
+
+    aside{
+        background-color: $blue;
+        width: 380px;
+        height: 720px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 72px;
+        box-sizing: border-box;
+
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        #num-input{
+            background: none;
+            border: none;
+            &:focus{ outline: none; }
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 37px;
+        }
+        .personal-data{
+            display: flex;
+            text-align: center;
+
+            input{
+
+                // hide input
+                position: absolute;
+                z-index: -1;
+                opacity: 0;
+
+                +label{
+                
+                    display: inline-flex;
+                    align-items: center;
+                    user-select: none;
+    
+                    &::before{
+                        // create fake checkbox
+                        content: '';
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        border: 2px solid black;
+                        background: none;
+    
+                    }
+                }
+
+                &:checked+label::before{
+                    // create checked input view 
+                    background-image: url(../check.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                
+            }
+
+            p{
+                width: 214px;
+                color: #565656;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+
+        button{
+            border: 1px solid #4E4E4E;
+            color: #4E4E4E;
+            background: none;
+            width: 284px;
+            height: 52px;
+            text-transform:uppercase;
+        }
+    }
+    
+    
+}
