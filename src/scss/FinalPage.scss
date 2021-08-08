@@ -3,7 +3,9 @@
 .final-page--container{
     @extend %background-img;
 
-    @extend .button-close;
+    .button-close{
+        @extend .button-close;
+    }
 
     aside{
         width: 380px;
