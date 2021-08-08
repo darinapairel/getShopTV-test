@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/getShopTV-test/static/css/main.bcda67ca.chunk.css",
+    "main.js": "/getShopTV-test/static/js/main.061969d4.chunk.js",
+    "main.js.map": "/getShopTV-test/static/js/main.061969d4.chunk.js.map",
+    "runtime-main.js": "/getShopTV-test/static/js/runtime-main.4eafb128.js",
+    "runtime-main.js.map": "/getShopTV-test/static/js/runtime-main.4eafb128.js.map",
+    "static/js/2.9fed1e9c.chunk.js": "/getShopTV-test/static/js/2.9fed1e9c.chunk.js",
+    "static/js/2.9fed1e9c.chunk.js.map": "/getShopTV-test/static/js/2.9fed1e9c.chunk.js.map",
+    "static/js/3.590ba567.chunk.js": "/getShopTV-test/static/js/3.590ba567.chunk.js",
+    "static/js/3.590ba567.chunk.js.map": "/getShopTV-test/static/js/3.590ba567.chunk.js.map",
+    "index.html": "/getShopTV-test/index.html",
+    "static/css/main.bcda67ca.chunk.css.map": "/getShopTV-test/static/css/main.bcda67ca.chunk.css.map",
+    "static/js/2.9fed1e9c.chunk.js.LICENSE.txt": "/getShopTV-test/static/js/2.9fed1e9c.chunk.js.LICENSE.txt",
+    "static/media/PhonePage.scss": "/getShopTV-test/static/media/background.0412b51f.png",
+    "static/media/plushkami.3eea4242.mp4": "/getShopTV-test/static/media/plushkami.3eea4242.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eafb128.js",
+    "static/js/2.9fed1e9c.chunk.js",
+    "static/css/main.bcda67ca.chunk.css",
+    "static/js/main.061969d4.chunk.js"
+  ]
+}
