@@ -1,7 +1,6 @@
 @import 'base';
 
 .phone-page--container{
-    @extend %size;
     @extend %background-img;
 
     aside{
@@ -18,6 +17,9 @@
         }
         p{
             text-align: center;
+        }
+        .warning{
+            color: red;
         }
         #num-input{
             background: none;
